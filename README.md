@@ -6,6 +6,8 @@ For more details about the method, please take a look at our [paper](https://arx
 
 In this section, we provide an overview of the three main components of the repository.
 
+LLMs: This section includes experiments tunning Llama on Alpaca. We use [opencompass](https://github.com/open-compass/OpenCompass/) for evaluation.
+
 Vision: This section includes experiments involving full fine-tuning on Domainbed. It focuses on vision-related tasks and evaluations.
 
 Language: This section contains experiments related to full fine-tuning and LoRA tuning on the GLUE dataset. Additionally, experiments on ID GLUE and OOD GLUE-X are conducted. These experiments primarily pertain to language-related tasks.
@@ -19,6 +21,20 @@ For specific instructions on running the code for each component, please refer t
 ## Environments
 
 Please prepare the Vision and Language environments separately and follow the instructions in each part. **Importantly**, we add functions like avg-k gating to the original [Tutel MoE](https://github.com/microsoft/tutel), so please install tutel from the local file `tutel` through cd `./tutel` and `pip install ./`.
+
+
+## Citation
+
+If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:.
+
+```BibTeX
+@article{qiu2023emergent,
+  title={Emergent Mixture-of-Experts: Can Dense Pre-trained Transformers Benefit from Emergent Modular Structures?},
+  author={Qiu, Zihan and Huang, Zeyu and Fu, Jie},
+  journal={arXiv preprint arXiv:2310.10908},
+  year={2023}
+}
+```
 
 ## Acknowledgement
 
