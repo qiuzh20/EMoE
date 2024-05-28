@@ -6,11 +6,11 @@ For more details about the method, please take a look at our [paper](https://arx
 
 In this section, we provide an overview of the three main components of the repository.
 
-LLMs: This section includes experiments tunning Llama on Alpaca. We use [opencompass](https://github.com/open-compass/OpenCompass/) for evaluation.
+**LLMs**: This section includes experiments tunning Llama on Alpaca. We use [opencompass](https://github.com/open-compass/OpenCompass/) for evaluation.
 
-Vision: This section includes experiments involving full fine-tuning on Domainbed. It focuses on vision-related tasks and evaluations.
+**Vision**: This section includes experiments involving full fine-tuning on Domainbed. It focuses on vision-related tasks and evaluations.
 
-Language: This section contains experiments related to full fine-tuning and LoRA tuning on the GLUE dataset. Additionally, experiments on ID GLUE and OOD GLUE-X are conducted. These experiments primarily pertain to language-related tasks.
+**Language**: This section contains experiments related to full fine-tuning and LoRA tuning on the GLUE dataset. Additionally, experiments on ID GLUE and OOD GLUE-X are conducted. These experiments primarily pertain to language-related tasks.
 
 Demons: This section provides the data sources and plotting code for all the images featured in the original paper.
 
